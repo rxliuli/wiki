@@ -5,7 +5,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
-      { text: 'GitHub', link: 'https://github.com/rxliuli/frontend-awesome' },
+      { text: 'GitHub', link: 'https://github.com/rxliuli/awesome-frontend' },
     ],
     sidebar: {
       '/guide/': [''],
