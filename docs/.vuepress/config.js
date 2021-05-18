@@ -8,7 +8,7 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/rxliuli/frontend-awesome' },
     ],
     sidebar: {
-      '/guide/': ['', '动机'],
+      '/guide/': [''],
     },
   },
 }
