@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "deploy": "yarn docs:build && gh-pages -d docs/.vuepress/dist",
     "sync": "gulp sync"
   },
   "prettier": {
