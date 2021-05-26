@@ -6,7 +6,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: 'GitHub', link: 'https://github.com/rxliuli/awesome-frontend' },
+      { text: 'GitHub', link: 'https://github.com/rxliuli/wiki' },
     ],
     sidebar: [{ title: '首页', path: '/' }, ...sidebar],
   },
