@@ -3,3 +3,4 @@ yarn-error.log
 dist/
 .joplin-blog.json
 docs/p/
+docs/.vuepress/sidebar.json
