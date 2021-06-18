@@ -915,25 +915,30 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@liuli-util/array@^3.1.0":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@liuli-util/array/-/array-3.2.2.tgz#49b8711f8c8b593b3a94339bafa77f66691de5db"
-  integrity sha512-EQoL/50Q2XaiD23WdiZWz2XKKfuYW1yGbJWMFPs540MqDg++7gx37+lS+g6ig9UyhoRi2xKdPEo7pfnIRnSL4w==
+"@liuli-util/array@^3.2.2":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@liuli-util/array/-/array-3.2.3.tgz#0367569a2350571c60970bf2746486000363ef5c"
+  integrity sha512-w2ziXhw6KESx171PHrU3DCGEEFBaxRWOZNjZfaeZ2+kEizHXnVNYQs/cNi4NXzRmAGGp6QUuHFjuSoCmhAM8Ag==
 
-"@liuli-util/async@^3.1.1":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@liuli-util/async/-/async-3.2.2.tgz#b65896024473eea55efae7af43e9d96b95e357c7"
-  integrity sha512-9s4BJah17Y/BlWEIlX6/OOImMMcpYK1umKAksUXkb83TZSnnz+B+L8R1pEl5Iwh1k8jTWEcGJfCQRByArVlqTQ==
+"@liuli-util/async@^3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@liuli-util/async/-/async-3.2.3.tgz#322fe7122bbcdf1743ad373277b3e14c2de8e9df"
+  integrity sha512-yE5pNScslAWktGyFUOlzY9U4n0LCyeBLUrDKQs/FKGQJXv+lEug7+U16LWyZEwF5hvVV9NrusgRN1w0VZOey7A==
 
 "@liuli-util/object@^3.2.0":
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@liuli-util/object/-/object-3.2.2.tgz#3cc35fe03b93d1204e34d0b44a12747c0db3c27d"
   integrity sha512-j4BsDh1WzdR8/PXj/87vqFrPu3SV6C1/g72qsrB6fKlVKuEKHa69DE8gTjF90p8Iw+OJcGgaDzQDcUJBDZR67w==
 
-"@liuli-util/tree@^3.2.0":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@liuli-util/tree/-/tree-3.2.2.tgz#d867b479439ae1c9c586380fa45e0891caa8b3ed"
-  integrity sha512-sC8SQ4xLkfqW+DvDl2KGH7EmbJE0PpOOu8lwY0oxSGw0+LPl4ik+y21wvtsYzFimPyyxKKwnIabNiIay4Vj1Iw==
+"@liuli-util/object@^3.2.2":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@liuli-util/object/-/object-3.2.3.tgz#8b089a769983585ea7f497ffbf03a49accccd043"
+  integrity sha512-fMp6H0N5YGMuLCgk2k7mhQ3jvGcEGba+pjXBvKlOQXXE4HowkIIGCai7klf6WvBQ87quBP53uVw/9Pqziif+MA==
+
+"@liuli-util/tree@^3.2.2":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@liuli-util/tree/-/tree-3.2.3.tgz#e5eb2a7fc0bda878043a51f383c967c10093c661"
+  integrity sha512-r5zAxcsIiysNcoMeNU4+ZF0q5cESdle5txiLwW5c7II3jnCFBW9R/QjDP3UJcfYN/j8EojeTpTJPmX5ZrHsCOg==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -5553,10 +5558,10 @@ javascript-stringify@^2.0.1:
   resolved "https://registry.yarnpkg.com/javascript-stringify/-/javascript-stringify-2.1.0.tgz#27c76539be14d8bd128219a2d731b09337904e79"
   integrity sha512-JVAfqNPTvNq3sB/VHQJAFxN/sPgKnsKrCwyRt15zwNCdrMMJDdcEOdubuy+DuJYYdm0ox1J4uzEuYKkN+9yhVg==
 
-joplin-api@^0.2.7:
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/joplin-api/-/joplin-api-0.2.8.tgz#e9c4f650735937be6c06137d8156ef047f2eb8e3"
-  integrity sha512-N4rvJh7GMtzYaHUsa+javKloFPrzJX+tm+v5agu6VPGU35yjKmTSTfbk2+GMV0ZNBlierraZztp7KKonhzckog==
+joplin-api@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/joplin-api/-/joplin-api-0.3.0.tgz#5d1c95ff06bada291c2e8f219318202e003bb549"
+  integrity sha512-r9LTbY7f6VXzXYRALXv6g5NPMZZRQhWKGIzfeQqWGdmAyN2LkLUwrlf/ILJKv+f0lSmy6lFC7DfEa29HgAJcHA==
   dependencies:
     "@liuli-util/object" "^3.2.0"
     axios "^0.21.0"
@@ -5564,21 +5569,21 @@ joplin-api@^0.2.7:
     node-fetch "^2.6.1"
     query-string "^6.13.7"
 
-joplin-blog@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.3.2.tgz#87af680613811ba4d7150b42c9b1bec90370a7fc"
-  integrity sha512-XOviBRyadhrXCCQS3+CuSQnTH/OepG6s7RHTFxRGT9gjAWgjwV8AP2ytLQvjsvD/csallitU7crRIuGkpCoeDw==
+joplin-blog@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.3.3.tgz#6cf25c02c2cbc53dbbbd489aab82a4a315f0e9fa"
+  integrity sha512-P0ItQfnUkzUUC9iTodOI7Lq3jfrrHBXGl43IYnG5cb+cGaoxTRTFQAtj2Ao4XQVgicCmnRCzhWSiG871od0I0Q==
   dependencies:
-    "@liuli-util/array" "^3.1.0"
-    "@liuli-util/async" "^3.1.1"
-    "@liuli-util/object" "^3.2.0"
-    "@liuli-util/tree" "^3.2.0"
+    "@liuli-util/array" "^3.2.2"
+    "@liuli-util/async" "^3.2.3"
+    "@liuli-util/object" "^3.2.2"
+    "@liuli-util/tree" "^3.2.2"
     commander "^7.2.0"
     enquirer "^2.3.6"
     figlet "^1.5.0"
     fs-extra "^9.0.1"
     i18next "^19.8.4"
-    joplin-api "^0.2.7"
+    joplin-api "^0.3.0"
     luxon "^1.25.0"
     mdast "^3.0.0"
     ora "^5.4.0"
