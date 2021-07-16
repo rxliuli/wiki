@@ -4,3 +4,5 @@ dist/
 .joplin-blog.json
 docs/p/
 docs/.vuepress/sidebar.json
+.temp/
+.cache/
