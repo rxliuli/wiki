@@ -65,6 +65,11 @@
   resolved "https://registry.yarnpkg.com/@liuli-util/async/-/async-3.2.5.tgz#73aa94eef76c4dd87ef2d4ec1610b3a70408b983"
   integrity sha512-wVVoLHdHjb63mZzx6QccY2QrOF3u6VxnUgprdUFYORVIEdh471+sxr9eMkwG3Kr4nVYLToJsOQvm8ndsniEv7g==
 
+"@liuli-util/i18next-util@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@liuli-util/i18next-util/-/i18next-util-0.2.0.tgz#69a202b3a6b8d29e425bedef6cbc5007c38bad7e"
+  integrity sha512-A7kuUfPllg+KiUWTK8v5odPO/YJtClEk/GuUgPPdEuKPLaTHcKmcQnYWhpAyFrsRpY+UPBrkvyT6Gj2ssnCzUA==
+
 "@liuli-util/object@^3.2.0", "@liuli-util/object@^3.2.2":
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/@liuli-util/object/-/object-3.2.5.tgz#5bf0b251e27fc644c2c9acd4838bd34318b23677"
@@ -2492,13 +2497,14 @@ joplin-api@^0.3.0:
     node-fetch "^2.6.1"
     query-string "^6.13.7"
 
-joplin-blog@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.4.0.tgz#5d250af5165e6d5b123f43d54bd0c9eda78ace29"
-  integrity sha512-Y2gNcGUVtKH7VHLK3lqHFqKOVO73k8LBfQK7zXHpcE4Ux5BL7N4Mjj7TS2oPr0HPMc1GEvgSNx+MavpJw6vdSQ==
+joplin-blog@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.5.1.tgz#67c35adc9153ca573e282aaeb494cd064666d8c8"
+  integrity sha512-6hCKhNA9ZTBL+9hF77EieqvbEJDwP1o0CwvZrQS7AzGUMzD1cuD6lucNBolLRT38pIbeS5gqd31XpqZ5hYi5jw==
   dependencies:
     "@liuli-util/array" "^3.2.2"
     "@liuli-util/async" "^3.2.3"
+    "@liuli-util/i18next-util" "^0.2.0"
     "@liuli-util/object" "^3.2.2"
     "@liuli-util/tree" "^3.2.2"
     comlink "^4.3.1"
