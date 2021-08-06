@@ -1,0 +1,1 @@
+import{r as a,o as t,c as e,a as s,w as r,F as n,b as o}from"./app.dd6fe0d9.js";const d={},l=s("h1",{id:"测试",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#测试","aria-hidden":"true"},"#"),o(" 测试")],-1),u=o("test");d.render=function(o,d){const i=a("RouterLink");return t(),e(n,null,[l,s("p",null,[s(i,{to:"/tools/test.html"},{default:r((()=>[u])),_:1})])],64)};export default d;
