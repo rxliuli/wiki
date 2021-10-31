@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <title>Awesome Frontend</title><meta name="description" content="这是一个自以为是的前端技术选择和推荐网站"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="VuePress 2.0.0-beta.23">
-    <link rel="modulepreload" href="/assets/app.c83a8dcf.js"><link rel="modulepreload" href="/assets/c0232eb08d0f4fb5a1ed997bbd04e130.html.79c6dd08.js"><link rel="modulepreload" href="/assets/c0232eb08d0f4fb5a1ed997bbd04e130.html.21e0509f.js">
+    <link rel="modulepreload" href="/assets/app.f01b6bc8.js"><link rel="modulepreload" href="/assets/c0232eb08d0f4fb5a1ed997bbd04e130.html.f88fca14.js"><link rel="modulepreload" href="/assets/c0232eb08d0f4fb5a1ed997bbd04e130.html.21e0509f.js">
     <link rel="stylesheet" href="/assets/style.ab239ff8.css">
   </head>
   <body>
@@ -687,6 +687,6 @@ eventEmitter<span class="token punctuation">.</span><span class="token function"
   <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;all close&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="目前-quickjs-沙箱的限制" tabindex="-1"><a class="header-anchor" href="#目前-quickjs-沙箱的限制" aria-hidden="true">#</a> 目前 quickjs 沙箱的限制</h2><p>下面是目前实现的一些限制，也是以后可以继续改进的点</p><ul><li><code>console</code> 仅支持常见的 <code>log/info/warn/error</code> 方法</li><li><code>setTimeout/setInterval</code> 事件循环时间没有保证，目前大约在 100ms 调用一次</li><li>无法使用 chrome devtool 调试，也不会处理 sourcemap（figma 至今的开发体验仍然如此，后面可能添加开关支持在 web worker 中调试）</li><li>vm 中出现错误不会将错误抛出来并打印在控制台</li><li>各个 api 调用的顺序与清理顺序必须手动保证是相反的，例如 vm 创建必须在 <code>defineSetTimeout</code> 之前，而 <code>defineSetTimeout</code> 的清理函数调用必须在 <code>vm.dispose</code> 之前</li><li>不能在 <code>messageChannel.on</code> 回调中同步调用 <code>vm.dispose</code>，因为是同步调用的</li></ul><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"> ← <a href="/p/53784162ade2454498a210a59796fae6.html" class="nav-link" aria-label="基于 IEventEmitter 封装更上层的 api"><!--[--><!--]--> 基于 IEventEmitter 封装更上层的 api <!--[--><!--]--></a></span><!----></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.c83a8dcf.js" defer></script>
+    <script type="module" src="/assets/app.f01b6bc8.js" defer></script>
   </body>
 </html>

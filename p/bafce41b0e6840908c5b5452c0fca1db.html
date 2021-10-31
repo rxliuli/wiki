@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <title>Awesome Frontend</title><meta name="description" content="这是一个自以为是的前端技术选择和推荐网站"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="VuePress 2.0.0-beta.23">
-    <link rel="modulepreload" href="/assets/app.c83a8dcf.js"><link rel="modulepreload" href="/assets/bafce41b0e6840908c5b5452c0fca1db.html.2f65098a.js"><link rel="modulepreload" href="/assets/bafce41b0e6840908c5b5452c0fca1db.html.8bcb8571.js">
+    <link rel="modulepreload" href="/assets/app.f01b6bc8.js"><link rel="modulepreload" href="/assets/bafce41b0e6840908c5b5452c0fca1db.html.81635b29.js"><link rel="modulepreload" href="/assets/bafce41b0e6840908c5b5452c0fca1db.html.8bcb8571.js">
     <link rel="stylesheet" href="/assets/style.ab239ff8.css">
   </head>
   <body>
@@ -80,6 +80,6 @@ console.log(&#39;location.href: &#39;, location.href)
 
 <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">await</span> <span class="token function">evalByQuickJS</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">1+1</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><ul><li>优点 <ul><li>事实上，在安全性方面它是无可匹敌的，因为运行在不同的 vm 上，很难出现现有微前端基于 Proxy 可能出现的安全问题。</li><li>虽然没有实际测试，但 figma 的那篇博客中指出浏览器的结构化克隆在处理大型对象时存在性能问题，而 quickjs 不存在这种问题。</li></ul></li><li>缺点 <ul><li>没有全局 api，包括常见的 <code>console/setTimeout/setInterval</code> 都不是 js 的特性，而是浏览器、nodejs 运行时实现的，所以必须手动实现并注入，这是一个显著的缺点。</li><li>无法使用浏览器的 DevTool 调试</li><li>由于底层使用 c 实现，所以需要手动管理内存的释放</li></ul></li></ul><h2 id="结论" tabindex="-1"><a class="header-anchor" href="#结论" aria-hidden="true">#</a> 结论</h2><p>最终，我们选择了基于接口实现了 web worker 与 quickjs 的 EventEmitter，并支持随时切换的能力。</p><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"> ← <a href="/p/1b058aecef544bebbe805c469d65bd54.html" class="nav-link" aria-label="基于 WebWorker 封装 JavaScript 沙箱"><!--[--><!--]--> 基于 WebWorker 封装 JavaScript 沙箱 <!--[--><!--]--></a></span><span class="next"><a href="/p/53784162ade2454498a210a59796fae6.html" class="nav-link" aria-label="基于 IEventEmitter 封装更上层的 api"><!--[--><!--]--> 基于 IEventEmitter 封装更上层的 api <!--[--><!--]--></a> → </span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.c83a8dcf.js" defer></script>
+    <script type="module" src="/assets/app.f01b6bc8.js" defer></script>
   </body>
 </html>
