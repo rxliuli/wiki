@@ -6,3 +6,4 @@ docs/p/
 docs/.vuepress/sidebar.json
 .temp/
 .cache/
+.joplin-cache.json
