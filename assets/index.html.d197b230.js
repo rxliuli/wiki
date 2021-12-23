@@ -1,1 +1,0 @@
-const t={key:"v-d440f426",path:"/tools/",title:"测试",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"tools/README.md",git:{updatedTime:1626424874e3,contributors:[{name:"rxliuli",email:"rxliuli@gmail.com",commits:1}]}};export{t as data};

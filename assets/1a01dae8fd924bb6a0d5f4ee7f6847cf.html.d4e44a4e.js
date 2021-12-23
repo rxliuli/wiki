@@ -1,1 +1,0 @@
-const e={key:"v-93612f7c",path:"/p/1a01dae8fd924bb6a0d5f4ee7f6847cf.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"前言",slug:"前言",children:[]},{level:2,title:"对话",slug:"对话",children:[]},{level:2,title:"感想",slug:"感想",children:[]}],filePathRelative:"p/1a01dae8fd924bb6a0d5f4ee7f6847cf.md",git:{updatedTime:null,contributors:[]}};export{e as data};
