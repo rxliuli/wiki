@@ -3,11 +3,7 @@ yarn-error.log
 dist/
 .joplin-blog.json
 docs/p/
-docs/.vuepress/sidebar.json
+docs/resources/
+docs/sidebar.json
 .temp/
 .cache/
-<<<<<<< HEAD
-.joplin-cache.json
-=======
-.joplin-cache.json
->>>>>>> 88cf484460fba063d9194f3b1c3e4abddfd1f579
