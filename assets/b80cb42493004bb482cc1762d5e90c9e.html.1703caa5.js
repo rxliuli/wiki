@@ -1,1 +1,0 @@
-const e={key:"v-c50d4c6c",path:"/p/b80cb42493004bb482cc1762d5e90c9e.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null,contributors:[]},filePathRelative:"p/b80cb42493004bb482cc1762d5e90c9e.md"};export{e as data};
