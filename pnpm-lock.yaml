@@ -3,8 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@liuli-util/prettier-standard-config': ^0.3.0
   '@mami/cli': ^0.5.2
-  '@mami/plugin-joplin': ^0.5.1
-  '@mami/plugin-vuepress': ^0.5.0
+  '@mami/plugin-joplin': ^0.5.2
+  '@mami/plugin-vuepress': ^0.5.3
   '@vuepress/client': 2.0.0-beta.60
   gh-pages: ^4.0.0
   lint-staged: ^13.1.0
@@ -18,8 +18,8 @@ specifiers:
 devDependencies:
   '@liuli-util/prettier-standard-config': 0.3.0_prettier@2.8.1
   '@mami/cli': 0.5.2
-  '@mami/plugin-joplin': 0.5.1
-  '@mami/plugin-vuepress': 0.5.0
+  '@mami/plugin-joplin': 0.5.2
+  '@mami/plugin-vuepress': 0.5.3
   '@vuepress/client': 2.0.0-beta.60
   gh-pages: 4.0.0
   lint-staged: 13.1.0
@@ -298,8 +298,8 @@ packages:
       fs-extra: 10.1.0
     dev: true
 
-  /@liuli-util/markdown-util/0.4.2:
-    resolution: {integrity: sha512-82YbxoteBaD65fHFaPxBKZjxV+N7dASv29pzCzPKr4ru9oy1Jjaqous1D4KDBDmJCUx2P02JWCuAu3Tk297I3Q==}
+  /@liuli-util/markdown-util/0.5.3:
+    resolution: {integrity: sha512-DO4UC97LalBihugA424hITQNCBQhkEHc7bsiZEzEKKhKvLtSbIC5/nSRASWfUHgdEdwaQTWtyKqd9LG4VO3QSQ==}
     dependencies:
       '@types/mdast': 3.0.10
       '@types/unist': 2.0.6
@@ -356,12 +356,12 @@ packages:
       type-fest: 3.5.1
     dev: true
 
-  /@mami/plugin-joplin/0.5.1:
-    resolution: {integrity: sha512-XptDBXfxR27/nv4u24feKRWg8INOTBjvAxH7aBuDgr9OuvUuwrh6hA1VGhd0sQXyXsk+ScBjInnzXaeAx2aR4A==}
+  /@mami/plugin-joplin/0.5.2:
+    resolution: {integrity: sha512-FNve96cx7w/Xs/zokJ9UdVU481J5pGsBQw8PBKKEZNgbvu5lGQ112vs9VVQlJ/Kh7akMWYD5EqpxfdL+1YiAJw==}
     dependencies:
       '@liuli-util/async': 3.6.0
       '@liuli-util/fs-extra': 0.1.0
-      '@liuli-util/markdown-util': 0.4.2
+      '@liuli-util/markdown-util': 0.5.3
       '@liuli-util/tree': 3.6.0
       joplin-api: 0.5.1
       lodash-es: 4.17.21
@@ -371,12 +371,12 @@ packages:
       - supports-color
     dev: true
 
-  /@mami/plugin-local/0.5.3:
-    resolution: {integrity: sha512-EyK1qShB7cgoXrRXvVDkDnFsYB5mC3tAgQLp4YPZqrb/LHKVIiqMOtmCZ4iBtRI/0g2IyGw81BUHDL6gUjRZcw==}
+  /@mami/plugin-local/0.5.4:
+    resolution: {integrity: sha512-KxT7sYqbvkE2GBKwUzFU/kjMsfp+ACnZqU96JUPL2oWJGtvdWj5Kj3n2cPlK+IARmdg2hE21rHfq3Ewkvqc1NQ==}
     dependencies:
       '@liuli-util/async': 3.6.0
       '@liuli-util/fs-extra': 0.1.0
-      '@liuli-util/markdown-util': 0.4.2
+      '@liuli-util/markdown-util': 0.5.3
       fast-glob: 3.2.12
       filenamify: 5.1.1
       lodash-es: 4.17.21
@@ -385,11 +385,22 @@ packages:
       - supports-color
     dev: true
 
-  /@mami/plugin-vuepress/0.5.0:
-    resolution: {integrity: sha512-KqaB3mVZXAexHrHBUuwSdezB97x+ebXuAdK3zjKV/1XzcwE7vGN55rmgMggiSH18lpLI3yxSa/r1EdwG7x2/Kw==}
+  /@mami/plugin-vitepress/0.5.3:
+    resolution: {integrity: sha512-z13viwXVBIDxVUmhcLYsuIXLDBbFRvheVPoo1IC8LqUztkVl4kF9aHad3XIZIY7crPA0sUtrh5JxSkVyXPArZg==}
     dependencies:
       '@mami/cli': 0.5.2
-      '@mami/plugin-local': 0.5.3
+      '@mami/plugin-local': 0.5.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@mami/plugin-vuepress/0.5.3:
+    resolution: {integrity: sha512-tyqHU3iu4q1tvfy/1nNsUw7FZ97IWEdciUnUUeeaBPSTos4hB5G60sRmo+kjdk44pQU4vObk8vAVILl1v+8BOw==}
+    dependencies:
+      '@liuli-util/tree': 3.6.0
+      '@mami/cli': 0.5.2
+      '@mami/plugin-local': 0.5.4
+      '@mami/plugin-vitepress': 0.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
