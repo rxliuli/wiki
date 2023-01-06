@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c50d4c6c","path":"/p/b80cb42493004bb482cc1762d5e90c9e.html","title":"IDEA 设置 Git-Bash 为默认 Terminal","lang":"en-US","frontmatter":{"title":"IDEA 设置 Git-Bash 为默认 Terminal","date":"2020-02-02T00:00:00.000Z"},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"p/b80cb42493004bb482cc1762d5e90c9e.md"}');export{e as data};
